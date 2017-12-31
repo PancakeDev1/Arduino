@@ -1,0 +1,16 @@
+int ledPin = 13; // Change to the desired digital port on your Arduino board.
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);
+  } 
+
+ void loop()
+ {
+  digitalWrite(ledPin, HIGH);
+  delay(5000); // Change number in () to determine how long the LED light will be on
+  digitalWrite(ledPin, LOW);
+  delay(2000); // Change number in () to determine hoe long the LED light will be off
+  }
+
+  // A functioning system that will blink any LED light where the positive jumper wire is plugged into #13 digital
